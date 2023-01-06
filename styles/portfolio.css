@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* heafer and nav title work */
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    margin: 50px 200px;
+    /* justify is not work */
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-title {
+    width: 121px;
+    height: 61px;
+}
+
+.btn-primary {
+    width: 150px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    padding: 18px 35px;
+}
